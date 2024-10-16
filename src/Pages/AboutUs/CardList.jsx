@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import CardItem from './CardItem';
+import CardItem from './CardItem.jsx';
 import './CardItem.css';
 
 const CardList = ({ cards }) => {
