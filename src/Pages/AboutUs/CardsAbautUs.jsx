@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import CardList from "./CardList";
+import CardList from "./CardList.jsx";
 
 const CardsAboutUs = () => {
   const [cardInfo, setCardInfo] = useState([]);

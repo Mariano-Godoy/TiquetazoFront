@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Card, Button } from "react-bootstrap";
 import { FaGithub } from "react-icons/fa";
-import "./CardItem.css";
+import "./cardItem.css";
 
 const CardItem = ({ title, text, img, githubLink }) => {
   const [isExpanded, setIsExpanded] = useState(false);
